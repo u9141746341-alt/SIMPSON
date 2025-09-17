@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>PEPER</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Luckiest+Guy&amp;family=Fredoka:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+
+</head>
+
+<body>
+<!-- INTRO -->
+ <section class="intro" id="intro">
+<div aria-label="Intro background" class="intro-bg" role="img"></div>
+<img alt="Simphson walking in" class="sprite sprite--intro" id="introDude" src="assets/animated_trash_main.gif"/>
+<button aria-label="Enter site" class="btn comic click-btn hidden" id="enterBtn">GO INSIDE</button>
+</section>
+<!-- MAIN SITE -->
+<main class="site hidden" id="site">
+<header class="header">
+    <h1>$PEPER</h1>
+    <nav class="socials">
+    <a aria-label="Telegram" class="icon tg" href="https://t.me/Peper_Solson" title="Telegram">
+    <img alt="Telegram" height="35" src="assets/tg icon.webp" width="35"/>
+    </a>
+    <a aria-label="Twitter" class="icon tw" href="https://x.com/PeperSolson" title="Twitter / X">
+    <img alt="Twitter" height="35" src="assets/X_icon.svg.png" width="35"/>
+    </a>
+    <a aria-label="Dexscreener" class="icon dex" href="https://dexscreener.com/solana/" title="Dexscreener">
+    <img alt="Dexscreener" height="33" src="assets/dex ico.png" width="33"/>
+    </a>
+    </nav>
+</header>
+<!-- SLIDE 1 -->
+<section class="slide slide-1" id="home">
+<img alt="Simphson running" class="sprite runner" id="runner" src="assets/simphs2.gif"/>
+<div class="cta">
+<h1>$PEPER</h1>
+<p class="tag">The beer-loving, donut-powered meme coin of Springfield.</p>
+<div class="btn-row">
+<a class="btn primary" href="#" rel="noopener" target="_blank">BUY</a>
+<button class="btn secondary" id="eatBtn">EAT</button>
+</div>
+<div class="contract">
+<span class="label">Contract:</span>
+<code id="contractText">comin_soon</code>
+<button class="btn mini" id="copyBtn">COPY</button>
+</div>
+</div>
+</section>
+<!-- SLIDE 2 -->
+<section class="slide slide-2" id="about">
+<img alt="Simphson in banana shorts" class="sprite bigboy" src="assets/simphson4.png"/>
+<div class="content">
+<h2>About the Meme</h2>
+<p>PEPER is a chill frog-dad who swaps donuts for SOL and keeps Springfield tidy. The more snacks he eats, the faster he runs. Utility? Fun. Tokenomics? Donuts.</p>
+<p class="hint">Tap anywhere in this room to spawn bananas 🍌. Try it!</p>
+</div><div class="controls"><button class="btn secondary" id="waterBtn">WATER ON/OFF</button><button class="btn primary" id="bubblesBtn">BUBBLES ON/OFF</button><button class="btn secondary" id="musicBtn">MUSIC</button></div>
+<div aria-hidden="true" id="bananaField"></div>
+<div aria-hidden="true" id="waterLayer"></div><div aria-hidden="true" id="bubbleLayer"></div><audio id="slide2Music" preload="auto" src="assets/music.mp3"></audio></section>
+<!-- SLIDE 3 -->
+<section class="slide slide-3" id="bedroom">
+<div class="controls">
+<button class="btn secondary" id="snoreBtn">SNORE</button>
+<button class="btn secondary" id="lightsBtn">LIGHTS ON/OFF</button>
+<button class="btn primary" id="donutBtn">MAKE SLEEP SWEETER</button>
+</div>
+<div aria-hidden="true" id="fxLayer"></div>
+<audio id="snoreAudio" preload="auto" src="assets/snore.mp3"></audio></section>
+<footer class="footer">
+<p>© 2025 PEPER. #coming_soon.</p>
+</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
